@@ -1,4 +1,4 @@
-root@k8s-master:/home# kubectl get pod -A
+@k8s-master:/home# kubectl get pod -A
 NAMESPACE          NAME                                       READY   STATUS    RESTARTS   AGE
 calico-apiserver   calico-apiserver-75f89fc657-87xcb          1/1     Running   0          97m
 calico-apiserver   calico-apiserver-75f89fc657-fxjw4          1/1     Running   0          97m
