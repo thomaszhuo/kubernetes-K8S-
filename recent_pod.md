@@ -1,0 +1,23 @@
+root@k8s-master:/home# kubectl get pod -A
+NAMESPACE          NAME                                       READY   STATUS    RESTARTS   AGE
+calico-apiserver   calico-apiserver-75f89fc657-87xcb          1/1     Running   0          97m
+calico-apiserver   calico-apiserver-75f89fc657-fxjw4          1/1     Running   0          97m
+calico-system      calico-kube-controllers-754959f948-tccc5   1/1     Running   0          104m
+calico-system      calico-node-bggdl                          1/1     Running   0          93m
+calico-system      calico-node-nwdkh                          1/1     Running   0          91m
+calico-system      calico-node-vt7qv                          1/1     Running   0          104m
+calico-system      calico-typha-57dbf69585-68z89              1/1     Running   0          104m
+calico-system      calico-typha-57dbf69585-j27gr              1/1     Running   0          91m
+calico-system      csi-node-driver-2l969                      2/2     Running   0          93m
+calico-system      csi-node-driver-b49w2                      2/2     Running   0          91m
+calico-system      csi-node-driver-kjrpm                      2/2     Running   0          104m
+kube-system        coredns-787d4945fb-c82c6                   1/1     Running   0          113m
+kube-system        coredns-787d4945fb-cjn9w                   1/1     Running   0          113m
+kube-system        etcd-k8s-master                            1/1     Running   0          113m
+kube-system        kube-apiserver-k8s-master                  1/1     Running   0          113m
+kube-system        kube-controller-manager-k8s-master         1/1     Running   0          113m
+kube-system        kube-proxy-dtnf6                           1/1     Running   0          91m
+kube-system        kube-proxy-p8mr4                           1/1     Running   0          93m
+kube-system        kube-proxy-prb5x                           1/1     Running   0          113m
+kube-system        kube-scheduler-k8s-master                  1/1     Running   0          113m
+tigera-operator    tigera-operator-78d7857c44-fp6m2           1/1     Running   0          106m
