@@ -1,4 +1,4 @@
-# kubernetes-K8S-
+# = K UBERNETE S = #
 
 KUBERNETES adalah platform open-source yang dirancang untuk mengotomatisasi deployment, scaling, dan operasi aplikasi container.
 Container adalah metode untuk mengemas aplikasi dan dependensinya ke dalam satu unit yang dapat dijalankan di berbagai lingkungan tanpa konflik.
