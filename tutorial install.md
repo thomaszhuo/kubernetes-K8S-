@@ -131,7 +131,7 @@ To start using your cluster, you need to run the following as a regular user:
 ==========================================================================================================================================================================================================================================
 Setting CALICO
 
-
+```bash
 root@k8s-master:/home/kube-K8S#kubectl create -f https://raw.githubusercontent.com/projectcalico/calico/v3.26.1/manifests/tigera-operator.yaml
 
 root@k8s-master:/home/kube-K8S# curl https://raw.githubusercontent.com/projectcalico/calico/v3.26.1/manifests/custom-resources.yaml -O
@@ -146,7 +146,7 @@ root@k8s-master:/home/kube-K8S# kubectl create -f custom-resources.yaml
 installation.operator.tigera.io/default created
 
 apiserver.operator.tigera.io/default created
-
+```
 ==========================================================================================================================================================================================================================================
 
 untuk join Cluster pada Node Master/Control Pane
